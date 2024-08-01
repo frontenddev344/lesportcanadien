@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,45 @@
       <link rel="stylesheet" href="assets/css/style.css">
       <link rel="stylesheet" href="assets/css/media.css">
       <title>Page d'accueil</title>
+      <style>
+         .cookie-popup {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: #1e1e28;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 1000;
+}
 
+.cookie-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cookie-content p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.cookie-content a {
+    color: #7920de;
+    text-decoration: none;
+}
+
+.cookie-content button {
+    background-color: #7920de;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+}
+      </style>
    </head>
    <body>
     
@@ -439,12 +477,19 @@
     </div>
 </div>
 <!-- footer section end -->
-
+<div class="cookie-popup" id="cookiePopup">
+   <div class="cookie-content">
+       <p> Nous utilisons des cookies pour améliorer votre expérience utilisateur sur notre site Web,
+         analyser le trafic du site Web et personnaliser le contenu. En poursuivant votre navigation
+         sur notre site Internet, vous acceptez l'utilisation de cookies. </p>
+       <button id="acceptCookies">Accept</button>
+   </div>
 
     
       <script src="assets/js/jquery-3.7.1.min.js"></script>
       <script src="assets/js/bootstrap.bundle.min.js"></script>
       <script src="assets/js/custom.js"></script>
+   
       <script>
          document.addEventListener("DOMContentLoaded", () => {
              animateValue("users", 0, 100000, 2000, false, "+");
