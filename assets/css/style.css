@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
- *{
+html{
+    font-size: 16px;
+} 
+*{
      margin: 0;
      padding: 0;
      box-sizing: border-box;
@@ -46,7 +49,7 @@
     max-width: 250px;
 }
 .main-nav ul li a {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #000;
     font-weight: 600;
     position: relative;
@@ -117,7 +120,7 @@ nav {
     position: relative;
 }
 .banner-text h1 {
-    font-size: 60px;
+    font-size: 3.75rem;
     color: #fff;
     font-weight: 700;
     margin-bottom: 10px;
@@ -126,7 +129,7 @@ nav {
     text-align: center;
 }
 .banner-text p {
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: #fff;
     text-align: center;
     margin-bottom: 0;
@@ -140,14 +143,14 @@ nav {
     text-align: center;
 }
 .signup-heading h3 {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 600;
     margin-bottom: 10px;
     line-height: 1.1;
     color: #ffffff;
 }
 .signup-heading p {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 0;
     color: #ffffff;
 
@@ -162,7 +165,7 @@ nav {
     height: 45px;
     border: 2px solid #7920de;
     width: 20%;
-    font-size: 18px;
+    font-size: 1.125rem;
     background-color: #7920de;
     color: #fff;
 }
@@ -211,7 +214,7 @@ nav {
     border-color: #7920de;
 }
 .counter-title {
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: center;
     color: #7920de;
     font-weight: 700;
@@ -219,7 +222,7 @@ nav {
     line-height: 1.1;
 }
 .counter-value {
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: 700;
     color: #333;
 }
@@ -228,7 +231,7 @@ nav {
 }
 .site-heading h2 {
     text-align: center;
-    font-size: 35px;
+    font-size: 2.1875rem;
     font-weight: 600;
     color: #000;
 }
@@ -255,7 +258,7 @@ nav {
     border: 1px solid #E8E8E9;
 }
 .newsletter-heading h3 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: 600;
     line-height: 1.1;
     margin-bottom: 25px;
@@ -274,7 +277,7 @@ nav {
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #000;
 }
 .newsletter-group button:hover{
@@ -287,12 +290,12 @@ nav {
 /* counter section css end */
 /* sports section css start */
 .sports-text h3 {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 600;
     color: #000;
 }
 .sports-text p {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #333;
 }
 .sports-img {
@@ -324,13 +327,13 @@ nav {
     object-fit: cover;
 }
 .abt-text h3 {
-    font-size: 35px;
+    font-size: 2.1875rem;
     font-weight: 600;
     margin-bottom: 15px;
     color: #fff;
 }
 .abt-text p {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #fff;
 }
 .abt-wrap {
@@ -359,7 +362,7 @@ nav {
     transform: translateY(-10px);
 }
 .update-text h4 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: 600;
     margin-bottom: 10px;
     color: #000;
@@ -367,7 +370,7 @@ nav {
 
 }
 .update-text p {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #333;
     margin-bottom: 0;
     transition: all 0.2s linear;
@@ -414,7 +417,7 @@ color: #fff;
     width: 35px;
     border: 1px solid #7920de;
     color: #7920de;
-    font-size: 20px;
+    font-size: 1.25rem;
     transition: all 0.3s linear;
 
 }
@@ -426,7 +429,7 @@ color: #fff;
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #000;
     font-weight: 600;
 }
@@ -434,13 +437,13 @@ color: #fff;
     padding: 5px 0;
 }
 .footer-heading h3 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: 600;
     margin-bottom: 20px;
     color: #0e0c23;
 }
 .footer-links ul li a {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
     color: #000;
     transition: all 0.3s linear;
@@ -459,7 +462,7 @@ color: #fff;
     border-top: 1px solid #a3a3a5;
 }
 .copy-right p {
-    font-size: 16px;
+    font-size: 1rem;
     margin-bottom: 0;
     color: #a3a3a5;
 }
@@ -470,11 +473,11 @@ color: #fff;
     height: 500px;
 }
 .sub-banner .banner-text h1 {
-    font-size: 45px;
+    font-size: 2.8125rem;
     margin-bottom: 0;
 }
 .top-text p {
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: center;
     margin-bottom: 0;
 }
@@ -483,7 +486,7 @@ color: #fff;
     padding: 20px;
 }
 .how-wrap {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 20px;
     height: 100%;
 }
@@ -496,18 +499,18 @@ color: #fff;
     align-items: center;
     justify-content: center;
     line-height: normal;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 700;
 }
 .how-text h4 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: 600;
     line-height: 1.1;
     margin: 10px 0;
     color: #000;
 }
 .how-text ul li {
-    font-size: 16px;
+    font-size: 1.125rem;
     line-height: 1.4;
     padding: 7px 0;
     color: #000;
@@ -518,4 +521,64 @@ color: #fff;
 .how-to-play .col-md-4 {
     margin-bottom: 25px;
 }
+
 /* sub pages css end */
+/* contact us page css start */
+.contact-wrap h4 {
+    font-size: 1.5625rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #000;
+}
+.contact-wrap p {
+    font-size: 1.0625;
+    margin-bottom: 8px;
+    color: #000;
+    line-height: 1.4;
+}
+.contact-wrap p a{
+    text-decoration: underline;
+    color: #000;
+}
+.contact-wrap {
+    margin: 20px 0;
+}
+.contact-group input, .contact-group textarea {
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+    border: 1px solid #E8E8E9;
+    color: #171724;
+    background-color: #fafafa;
+    border-radius: 6px;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.contact-group textarea{
+    height: 300px;
+}
+.contact-group {
+    margin: 20px 0;
+}
+.contact-group button {
+    padding: 10px 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 27px;
+    background-color: #7920de;
+    color: #fff;
+    border: 1px solid #7920de;
+    transition: all 0.3s linear;
+
+}
+.contact-group button:hover{
+    background-color: transparent;
+    color: #7920de;
+}
+.form-heading h3 {
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 10px;
+}
+/* contact us page css end */
