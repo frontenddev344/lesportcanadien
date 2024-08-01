@@ -90,6 +90,9 @@ nav {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-color: #fff;
 }
+.toggle, .close{
+    display: none;
+}
 /* header css end */
 
 /* banner section css satrt */
@@ -300,11 +303,16 @@ nav {
 }
 .sports-img {
     height: 300px;
+    overflow: hidden;
+}
+.sports-img:hover img{
+    transform: scale(1.2);
 }
 .sports-img img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transition: all 0.3s linear;
 }
 :focus-visible {
     outline: -webkit-focus-ring-color auto 1px;
@@ -320,11 +328,17 @@ nav {
 /* about section css start */
 .abt-img {
     height: 500px;
+    overflow: hidden;
+}
+.abt-img:hover img{
+    transform: scale(1.2);
+
 }
 .abt-img img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transition: all 0.3s linear;
 }
 .abt-text h3 {
     font-size: 2.1875rem;
@@ -518,7 +532,7 @@ color: #fff;
 .count-bx {
     margin-bottom: 20px;
 }
-.how-to-play .col-md-4 {
+.how-to-play .col-md-6 {
     margin-bottom: 25px;
 }
 
@@ -582,3 +596,26 @@ color: #fff;
     margin-bottom: 10px;
 }
 /* contact us page css end */
+.privacy-wrap p{
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 5px;
+
+}
+.privacy-wrap ul {
+    list-style: disc;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+.privacy-wrap ul li {
+    font-size: 1rem;
+    color: #000;
+    padding: 2px 0;
+}
+.privacy-wrap {
+    margin: 20px 0;
+}
+.privacy-wrap p a{
+    text-decoration: underline;
+    color: #000;
+}
