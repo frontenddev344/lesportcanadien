@@ -41,11 +41,17 @@
 
 .cookie-content button {
     background-color: #7920de;
-    border: none;
+    border: 1px solid #7920de;
     padding: 10px 20px;
     cursor: pointer;
     font-size: 14px;
     color: #fff;
+    transition: all 0.3s linear;
+}
+.cookie-content button:hover{
+   border-color:#fff ;
+   background-color: transparent;
+   
 }
       </style>
    </head>
@@ -493,10 +499,10 @@
    
       <script>
          document.addEventListener("DOMContentLoaded", () => {
-             animateValue("users", 0, 100000, 2000, false, "+");
-             animateValue("reviews", 0, 8000, 2000, false, "+");
-             animateValue("leagues", 0, 1000, 2000, false, "+");
-             animateValue("rating", 0, 9.3, 2000, true, "/10");
+             animateValue("users", 0, 100000, 10000, false, "+");
+             animateValue("reviews", 0, 8000, 10000, false, "+");
+             animateValue("leagues", 0, 1000, 10000, false, "+");
+             animateValue("rating", 0, 9.3, 10000, true, "/10");
          });
          
          function animateValue(id, start, end, duration, isDecimal, suffix) {
