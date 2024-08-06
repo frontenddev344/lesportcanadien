@@ -90,6 +90,13 @@ nav {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-color: #fff;
 }
+header.site-header.fixed-header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
 .toggle, .close{
     display: none;
 }
@@ -180,6 +187,10 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 80%;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 auto;
 }
 .sign-up {
     background-color: #1e1e28;
@@ -567,6 +578,7 @@ color: #fff;
     border-radius: 6px;
     font-size: 1.125rem;
     font-weight: 500;
+    text-transform: capitalize;
 }
 .contact-group textarea{
     height: 300px;

@@ -6,14 +6,14 @@ $(document).ready(function(){
     $("body").removeClass("menuToggle");
   });
 });
-// $(window).scroll(function(){
-//   if ($(window).scrollTop() >= 10) {
-//       $('header').addClass('fixed-header');
-//   }
-//   else {
-//       $('header').removeClass('fixed-header');
-//   }
-// });
+$(window).scroll(function(){
+  if ($(window).scrollTop() >= 10) {
+      $('header').addClass('fixed-header');
+  }
+  else {
+      $('header').removeClass('fixed-header');
+  }
+});
 
 
 document.addEventListener("DOMContentLoaded", function() {
