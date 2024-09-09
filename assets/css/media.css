@@ -76,6 +76,17 @@
     .sub-banner .banner-text h1 {
         font-size: 2.5125rem;
     }
+        /* Cookies CSS Start */
+        .info p {
+            font-size: 14px;
+        }
+    
+        .button {
+            width: calc(55% / 2 - 10px);
+            font-size: 14px;
+        }
+    
+        /* Cookies CSS End */
 }
 
 @media(max-width:850px){
@@ -173,6 +184,21 @@
     .form-group {
         width: 100%;
     }
+        /* Cookies CSS Start */
+        .wrapper {
+            padding: 20px 10px;
+        }
+    
+        .info p {
+            font-size: 13px;
+        }
+    
+        .button {
+            font-size: 13px;
+            padding: 6px;
+        }
+    
+        /* Cookies CSS End */
 }
 
 
@@ -220,6 +246,17 @@
     .contact-group textarea {
         height: 200px;
     }
+        /* Cookies CSS Start */
+        .info p {
+            font-size: 13px;
+        }
+    
+        .button {
+            width: calc(50% / 2 - 10px);
+            font-size: 13px;
+        }
+    
+        /* Cookies CSS End */
 }
 @media(max-width:375px){
     .counter {
@@ -258,4 +295,19 @@
     .ptb-50 {
         padding: 40px 0;
     }
+        /* Cookies CSS Start */
+        .info p {
+            font-size: 12px;
+        }
+    
+        .buttons {
+            gap: 10px;
+        }
+    
+        .button {
+            width: calc(80% / 2 - 10px);
+            font-size: 13px;
+        }
+    
+        /* Cookies CSS End */
 }
