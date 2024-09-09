@@ -1,108 +1,105 @@
 <!DOCTYPE html>
 <html lang="fr">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/css/media.css">
+      <title>Page d'accueil</title>
+      <style>
+         .cookie-popup {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: #1e1e28;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 1000;
+}
 
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-   <link rel="icon" href="assets/images/favicon.png">
-   <link rel="stylesheet" href="assets/css/style.css">
-   <link rel="stylesheet" href="assets/css/media.css">
-   <title>Page d'accueil</title>
-   <style>
-      .cookie-popup {
-         position: fixed;
-         bottom: 20px;
-         left: 20px;
-         right: 20px;
-         background-color: #1e1e28;
-         color: #fff;
-         padding: 20px;
-         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-         display: none;
-         z-index: 1000;
-      }
+.cookie-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-      .cookie-content {
-         display: flex;
-         justify-content: space-between;
-         align-items: center;
-      }
+.cookie-content p {
+    margin: 0;
+    font-size: 14px;
+}
 
-      .cookie-content p {
-         margin: 0;
-         font-size: 14px;
-      }
+.cookie-content a {
+    color: #7920de;
+    text-decoration: none;
+}
 
-      .cookie-content a {
-         color: #7920de;
-         text-decoration: none;
-      }
+.cookie-content button {
+    background-color: #7920de;
+    border: 1px solid #7920de;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+.cookie-content button:hover{
+   border-color:#fff ;
+   background-color: transparent;
+   
+}
+      </style>
+   </head>
+   <body>
+    
+<!-- header section start -->
+      <header class="site-header">
+         <div class="container">
+             <nav>
+                <div class="site-logo">
+                  <a href="index.html">
+                     <img src="assets/images/logo.png" alt="">
+                  </a>
+                </div>
+                <div class="main-nav">
+                   <ul>
+                     <li>
+                        <a href="index.html" class="active">
+                           Page d'accueil
+                        </a>
+                     </li>
+                     <li>
+                        <a href="how-to-play.html">
+                           Comment jouer
+                        </a>
+                     </li>
+                     <li>
+                        <a href="contact-us.html">
+                           Contactez nous
+                        </a>
+                     </li>
+                   </ul>
+                   <div class="close">
+                     <i class="fa-solid fa-x"></i>
+                   </div>
+                </div>
+                <div class="toggle">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+             </nav>
+         </div>
+      </header>
+<!-- header section end  -->
 
-      .cookie-content button {
-         background-color: #7920de;
-         border: 1px solid #7920de;
-         padding: 10px 20px;
-         cursor: pointer;
-         font-size: 14px;
-         color: #fff;
-         transition: all 0.3s linear;
-      }
+<!-- banner section start -->
 
-      .cookie-content button:hover {
-         border-color: #fff;
-         background-color: transparent;
-
-      }
-   </style>
-</head>
-
-<body>
-
-   <!-- header section start -->
-   <header class="site-header">
-      <div class="container">
-         <nav>
-            <div class="site-logo">
-               <a href="index.html">
-                  <img src="assets/images/logo.png" alt="">
-               </a>
-            </div>
-            <div class="main-nav">
-               <ul>
-                  <li>
-                     <a href="index.html" class="active">
-                        Page d'accueil
-                     </a>
-                  </li>
-                  <li>
-                     <a href="how-to-play.html">
-                        Comment jouer
-                     </a>
-                  </li>
-                  <li>
-                     <a href="contact-us.html">
-                        Contactez nous
-                     </a>
-                  </li>
-               </ul>
-               <div class="close">
-                  <i class="fa-solid fa-x"></i>
-               </div>
-            </div>
-            <div class="toggle">
-               <i class="fa-solid fa-bars"></i>
-            </div>
-         </nav>
-      </div>
-   </header>
-   <!-- header section end  -->
-
-   <!-- banner section start -->
-
-   <div class="site-banner">
-      <div class="banner-wrap">
+<div class="site-banner">
+    <div class="banner-wrap">
          <div class="banner-text">
             <h1>
                Le Sport Canadien
@@ -111,209 +108,209 @@
                Le meilleur fournisseur de sports fantastiques au Canada
             </p>
          </div>
-      </div>
-   </div>
-   <!-- banner section end -->
+    </div>
+</div>
+<!-- banner section end -->
 
-   <!-- sign up section start -->
+<!-- sign up section start -->
 
-   <div class="sign-up">
-      <div class="container">
-         <div class="signup-wrap">
-            <div class="signup-heading">
-               <h3>
-                  Pouvez vous entraîner au plus haut niveau?
-               </h3>
-               <p>
-                  Explorez le monde des sports fantastiques avec nous
-               </p>
-            </div>
-            <form>
-               <div class="form-group">
-                  <input type="email" placeholder="E-mail">
-                  <button>S'inscrire</button>
-               </div>
-            </form>
-         </div>
-      </div>
-   </div>
-
-   <!-- sign up section end -->
-
-   <!-- counter section start -->
-
-   <div class="counter-wrap">
-      <div class="container">
-         <div class="site-heading">
-            <h2>
-               Fantasy Sports : une porte d'entrée vers le paradis du sport
-            </h2>
-         </div>
-         <div class="counter-container">
-            <div class="counter">
-               <div class="counter-box">
-                  <div class="counter-title">Utilisateurs</div>
-                  <div class="counter-value" id="users">0</div>
-               </div>
-            </div>
-            <div class="counter">
-               <div class="counter-box">
-                  <div class="counter-title">Reviews</div>
-                  <div class="counter-value" id="reviews">0</div>
-               </div>
-            </div>
-            <div class="counter">
-               <div class="counter-box">
-                  <div class="counter-title">Leagues</div>
-                  <div class="counter-value" id="leagues">0</div>
-               </div>
-            </div>
-            <div class="counter">
-               <div class="counter-box">
-                  <div class="counter-title">Notation</div>
-                  <div class="counter-value" id="rating">0</div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-
-   <!-- counter section end -->
-
-   <!-- newsletter section start  -->
-   <div class="newsletter ptb-50 ">
-      <div class="container">
-         <div class="newsletter-wrap">
-            <div class="newsletter-heading">
-               <h3>
-                  Inscrivez-vous à notre newsletter pour toutes les actualités des sports fantastiques
-               </h3>
-            </div>
-            <div class="newsletter-group">
+<div class="sign-up">
+   <div class="container">
+      <div class="signup-wrap">
+          <div class="signup-heading">
+            <h3>
+               Pouvez vous entraîner au plus haut niveau?
+            </h3>
+            <p>
+               Explorez le monde des sports fantastiques avec nous
+            </p>
+          </div>
+          <form>
+             <div class="form-group">
                <input type="email" placeholder="E-mail">
-               <button><i class="fa-solid fa-arrow-right-long"></i></button>
-            </div>
-         </div>
+               <button>S'inscrire</button>
+             </div>
+          </form>
       </div>
    </div>
+</div>
 
-   <!-- newsletter section end -->
-   <!-- sport section start  -->
+<!-- sign up section end -->
 
-   <div class="sports-wrap">
-      <div class="container">
-         <div class="sports-box first-bx">
-            <div class="row">
-               <div class="col-md-6">
-                  <div class="sports-text">
-                     <h3>
-                        Quel est ton sport ?
-                     </h3>
-                     <p>
-                        Choisissez parmi une variété de sports
-                        parmi lesquels le football, le soccer, le
-                        hockey et le basketball.
-                     </p>
-                  </div>
-               </div>
-               <div class="col-md-6">
-                  <div class="sports-img">
-                     <img src="assets/images/Sports-Card-1.jpeg" alt="">
-                  </div>
-               </div>
+<!-- counter section start -->
+
+<div class="counter-wrap">
+   <div class="container">
+      <div class="site-heading">
+         <h2>
+            Fantasy Sports : une porte d'entrée vers le paradis du sport
+         </h2>
+      </div>
+      <div class="counter-container">
+         <div class="counter">
+            <div class="counter-box">
+               <div class="counter-title">Utilisateurs</div>
+               <div class="counter-value" id="users">0</div>
             </div>
          </div>
-         <div class="sports-box">
-            <div class="row">
-               <div class="col-md-6">
-                  <div class="sports-img">
-                     <img src="assets/images/Sports-Card-2.webp" alt="">
-                  </div>
+         <div class="counter">
+            <div class="counter-box">
+               <div class="counter-title">Reviews</div>
+               <div class="counter-value" id="reviews">0</div>
+            </div>
+         </div>
+         <div class="counter">
+            <div class="counter-box">
+               <div class="counter-title">Leagues</div>
+               <div class="counter-value" id="leagues">0</div>
+             </div>
+         </div>
+         <div class="counter">
+            <div class="counter-box">
+               <div class="counter-title">Notation</div>
+               <div class="counter-value" id="rating">0</div>
+            </div>
+         </div>
+     </div>
+   </div>
+</div>
+
+<!-- counter section end -->
+
+<!-- newsletter section start  -->
+<div class="newsletter ptb-50 ">
+   <div class="container">
+       <div class="newsletter-wrap">
+          <div class="newsletter-heading">
+             <h3>
+                   Inscrivez-vous à notre newsletter pour toutes les actualités des sports fantastiques
+             </h3>
+          </div>
+          <div class="newsletter-group">
+             <input type="email" placeholder="E-mail">
+             <button><i class="fa-solid fa-arrow-right-long"></i></button>
+          </div>
+       </div>
+   </div>
+</div>
+
+<!-- newsletter section end -->
+<!-- sport section start  -->
+
+<div class="sports-wrap">
+   <div class="container">
+      <div class="sports-box first-bx">
+       <div class="row">
+          <div class="col-md-6">
+               <div class="sports-text">
+                  <h3>
+                     Quel est ton sport ?
+                  </h3>
+                  <p>
+                     Choisissez parmi une variété de sports
+                     parmi lesquels le football, le soccer, le
+                     hockey et le basketball.
+                  </p>
                </div>
-               <div class="col-md-6">
-                  <div class="sports-text">
-                     <h3>
-                        Choisissez votre équipe
-                     </h3>
-                     <p>
+          </div>
+          <div class="col-md-6">
+               <div class="sports-img">
+                  <img src="assets/images/Sports-Card-1.jpeg" alt="">
+               </div>
+          </div>
+       </div>
+      </div>
+      <div class="sports-box">
+         <div class="row">
+            <div class="col-md-6">
+               <div class="sports-img">
+                  <img src="assets/images/Sports-Card-2.webp" alt="">
+               </div>
+          </div>
+            <div class="col-md-6">
+                 <div class="sports-text">
+                    <h3>
+                     Choisissez votre équipe
+                    </h3>
+                    <p>
                         Prenez vos décisions en matière
                         d'échange, de transfert et d'équipe de
                         départ.
-                     </p>
-                  </div>
-               </div>
-
+                    </p>
+                 </div>
             </div>
+           
          </div>
-         <div class="sports-box first-bx">
-            <div class="row">
-               <div class="col-md-6">
-                  <div class="sports-text">
-                     <h3>
-                        Rejoignez une ligue
-                     </h3>
-                     <p>
+      </div>
+      <div class="sports-box first-bx">
+         <div class="row">
+            <div class="col-md-6">
+                 <div class="sports-text">
+                    <h3>
+                         Rejoignez une ligue
+                    </h3>
+                    <p>
                         Créez une ligue privée pour vous et vos
                         amis ou rejoignez l'une de nos ligues
                         publiques pour vous comparer au monde.
-                     </p>
-                  </div>
-               </div>
-               <div class="col-md-6">
-                  <div class="sports-img">
-                     <img src="assets/images/Sports-Card-3.webp" alt="">
-                  </div>
+                    </p>
+                 </div>
+            </div>
+            <div class="col-md-6">
+                 <div class="sports-img">
+                    <img src="assets/images/Sports-Card-3.webp" alt="">
+                 </div>
+            </div>
+         </div>
+        </div>
+   </div>
+</div>
+
+<!-- sports section end -->
+
+<!-- about us section start -->
+<div class="about-sec ptb-50">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-6">
+            <div class="abt-img">
+                <img src="assets/images/about-us.png" alt="">
+            </div>
+         </div>
+         <div class="col-md-6">
+            <div class="abt-wrap">
+               <div class="abt-text">
+                   <h3>
+                     À propos de nous
+                   </h3>
+                   <p>
+                     Le Sport Canadien, votre destination par excellence pour les sports fantastiques! Nous
+   proposons une plate-forme passionnante où les amateurs de sport peuvent participer à des
+   ligues fantastiques de football, de football, de basket-ball et de hockey. Notre objectif est de
+   rassembler des fans de partout au Canada et d'ailleurs, en offrant un environnement
+   compétitif mais amusant pour mettre en valeur vos connaissances et compétences
+   sportives. Rejoignez-nous aujourd'hui et faites partie de notre communauté grandissante.
+   Jouez, concourez et gagnez avec Le Sport Canadien!
+                   </p>
                </div>
             </div>
          </div>
+        
       </div>
    </div>
+</div>
 
-   <!-- sports section end -->
+<!-- about us section end -->
 
-   <!-- about us section start -->
-   <div class="about-sec ptb-50">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-6">
-               <div class="abt-img">
-                  <img src="assets/images/about-us.png" alt="">
-               </div>
-            </div>
-            <div class="col-md-6">
-               <div class="abt-wrap">
-                  <div class="abt-text">
-                     <h3>
-                        À propos de nous
-                     </h3>
-                     <p>
-                        Le Sport Canadien, votre destination par excellence pour les sports fantastiques! Nous
-                        proposons une plate-forme passionnante où les amateurs de sport peuvent participer à des
-                        ligues fantastiques de football, de football, de basket-ball et de hockey. Notre objectif est de
-                        rassembler des fans de partout au Canada et d'ailleurs, en offrant un environnement
-                        compétitif mais amusant pour mettre en valeur vos connaissances et compétences
-                        sportives. Rejoignez-nous aujourd'hui et faites partie de notre communauté grandissante.
-                        Jouez, concourez et gagnez avec Le Sport Canadien!
-                     </p>
-                  </div>
-               </div>
-            </div>
-
-         </div>
-      </div>
-   </div>
-
-   <!-- about us section end -->
-
-   <!-- update section start -->
-   <div class="update-sec pb-50">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-4">
-               <div class="update-wrap">
-                  <div class="update-img">
-                     <img src="assets/images/update.png" alt="">
-                  </div>
+<!-- update section start -->
+<div class="update-sec pb-50">
+    <div class="container">
+       <div class="row">
+           <div class="col-md-4">
+              <div class="update-wrap">
+                <div class="update-img">
+                   <img src="assets/images/update.png" alt="">
+                </div>
                   <div class="update-text">
                      <h4>
                         Mises à jour
@@ -331,66 +328,67 @@
                         concerne le sport.
                      </p>
                   </div>
-               </div>
-            </div>
+              </div>
+           </div>
 
-            <div class="col-md-4">
-               <div class="update-wrap">
-                  <div class="update-img">
-                     <img src="assets/images/user-friendly.png" alt="">
-                  </div>
-                  <div class="update-text">
-                     <h4>
-                        Convivial
-                     </h4>
-                     <p>
-                        Notre plateforme a été
-                        développée pour être simple
-                        à naviguer pour les joueurs
-                        de sports fantastiques de
-                        toute expérience. Notre
-                        base de données de joueurs
-                        est claire et précise dans ce
-                        qu'elle tente d'accomplir.
-                     </p>
-                  </div>
-               </div>
-            </div>
-
-            <div class="col-md-4">
-               <div class="update-wrap">
-                  <div class="update-img">
-                     <img src="assets/images/league.png" alt="">
-                  </div>
-                  <div class="update-text">
-                     <h4>
-                        Formats de ligue
-                     </h4>
-                     <p>
-                        Nous offrons à nos
-                        utilisateurs une gamme de
-                        choix, depuis des ligues
-                        privées internes pour vous
-                        et vos amis jusqu'à des
-                        ligues publiques avec des
-                        dizaines de milliers de
-                        participants. Nous
-                        proposons également des
-                        compétitions de coupe ainsi
-                        que des variantes de vos
-                        ligues Fantasy standard.
-                     </p>
-                  </div>
-               </div>
+           <div class="col-md-4">
+            <div class="update-wrap">
+              <div class="update-img">
+                 <img src="assets/images/user-friendly.png" alt="">
+              </div>
+                <div class="update-text">
+                   <h4>
+                     Convivial
+                   </h4>
+                   <p>
+                     Notre plateforme a été
+                     développée pour être simple
+                     à naviguer pour les joueurs
+                     de sports fantastiques de
+                     toute expérience. Notre
+                     base de données de joueurs
+                     est claire et précise dans ce
+                     qu'elle tente d'accomplir.
+                   </p>
+                </div>
             </div>
          </div>
-      </div>
-   </div>
 
-   <!-- update section end -->
+         <div class="col-md-4">
+            <div class="update-wrap">
+              <div class="update-img">
+                 <img src="assets/images/league.png" alt="">
+              </div>
+                <div class="update-text">
+                   <h4>
+                     Formats de ligue
+                   </h4>
+                   <p>
+                     Nous offrons à nos
+                     utilisateurs une gamme de
+                     choix, depuis des ligues
+                     privées internes pour vous
+                     et vos amis jusqu'à des
+                     ligues publiques avec des
+                     dizaines de milliers de
+                     participants. Nous
+                     proposons également des
+                     compétitions de coupe ainsi
+                     que des variantes de vos
+                     ligues Fantasy standard.
+                   </p>
+                </div>
+            </div>
+         </div>
+       </div>
+    </div>
+</div>
+
+<!-- update section end -->
+
 
    <!-- Disclaimer Section Start -->
-   <section class="disclaimer pb-5 text-center">
+   <section class="disclaimer pb-5">
       <div class="container">
          <div class="disclaimer-wrapper">
             <h3>Avis de non-responsabilité</h3>
@@ -415,148 +413,140 @@
    </section>
    <!-- Disclaimer Section End -->
 
+<!-- footer section start -->
 
-   <!-- footer section start -->
-
-   <div class="site-footer ptb-50">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-4">
-               <div class="footer-logo">
-                  <a href="#">
-                     <img src="assets/images/logo.png" alt="">
-                  </a>
-               </div>
-               <div class="social-icon">
-                  <ul>
-                     <li>
-                        <a href="#">
-                           <i class="fa-brands fa-facebook-f"></i>
-                           Facebook
-                        </a>
-                     </li>
-                     <li>
-                        <a href="#">
-                           <i class="fa-brands fa-instagram"></i>
-                           Instagram
-                        </a>
-                     </li>
-                     <li>
-                        <a href="#">
-                           <i class="fa-brands fa-x-twitter"></i>
-                           Twitter
-                        </a>
-                     </li>
-                  </ul>
-               </div>
+<div class="site-footer ptb-50">
+    <div class="container">
+        <div class="row">
+         <div class="col-md-4">
+            <div class="footer-logo">
+               <a href="#">
+                  <img src="assets/images/logo.png" alt="">
+               </a>
             </div>
-            <div class="col-md-4">
-               <div class="footer-heading">
-                  <h3>
-                     Menu
-                  </h3>
-               </div>
-               <div class="footer-links">
-                  <ul>
-                     <li>
-                        <a href="index.html">
-                           Page d'accueil
-                        </a>
-                     </li>
-                     <li>
-                        <a href="how-to-play.html">
-                           Comment jouer
-                        </a>
-                     </li>
-                     <li>
-                        <a href="contact-us.html">
-                           Contactez nous
-                        </a>
-                     </li>
-                  </ul>
-               </div>
-
+            <div class="social-icon">
+               <ul>
+                  <li>
+                     <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        Facebook
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                        Instagram
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="fa-brands fa-x-twitter"></i>
+                        Twitter
+                     </a>
+                  </li>
+               </ul>
             </div>
-            <div class="col-md-4">
-               <div class="footer-heading">
-                  <h3>
-                     Soutien
-                  </h3>
-               </div>
-               <div class="footer-links">
-                  <ul>
-                     <li>
-                        <a href="privacy-policy.html">
+         </div>
+         <div class="col-md-4">
+            <div class="footer-heading">
+               <h3>
+                  Menu
+               </h3>
+            </div>
+            <div class="footer-links">
+               <ul>
+                  <li>
+                     <a href="index.html">
+                        Page d'accueil
+                     </a>
+                  </li>
+                  <li>
+                     <a href="how-to-play.html">
+                        Comment jouer
+                     </a>
+                  </li>
+                  <li>
+                     <a href="contact-us.html">
+                        Contactez nous
+                     </a>
+                  </li>
+               </ul>
+            </div>
+            
+         </div>
+         <div class="col-md-4">
+            <div class="footer-heading">
+               <h3>
+                  Soutien
+               </h3>
+            </div>
+            <div class="footer-links">
+               <ul>
+                  <li>
+                     <a href="privacy-policy.html">
                            politique de confidentialité
-                        </a>
-                     </li>
-                     <li>
-                        <a href="term-and-condition.html">
-                           Termes et conditions
-                        </a>
-                     </li>
-                     <li>
-                        <a href="mailto:info@lesportcanadien.com" style="text-transform: lowercase;">
-                           info@lesportcanadien.com
-                        </a>
-                     </li>
-                  </ul>
-               </div>
-
+                     </a>
+                  </li>
+                  <li>
+                     <a href="term-and-condition.html">
+                        Termes et conditions
+                     </a>
+                  </li>
+                  <li>
+                     <a href="mailto:info@lesportcanadien.com" style="text-transform: lowercase;">
+                        info@lesportcanadien.com
+                     </a>
+                  </li>
+               </ul>
             </div>
+            
          </div>
-         <div class="copy-right">
-            <p>
-               Copyright © 2024 lesportcanadien.com
-            </p>
-         </div>
-      </div>
+        </div>
+        <div class="copy-right">
+          <p>
+            Copyright © 2024 lesportcanadien.com
+          </p>
+        </div>
+    </div>
+</div>
+<!-- footer section end -->
+<div class="cookie-popup" id="cookiePopup">
+   <div class="cookie-content">
+       <p> Nous utilisons des cookies pour améliorer votre expérience utilisateur sur notre site Web,
+         analyser le trafic du site Web et personnaliser le contenu. En poursuivant votre navigation
+         sur notre site Internet, vous acceptez l'utilisation de cookies. </p>
+       <button id="acceptCookies">Accepter</button>
    </div>
-   <!-- footer section end -->
+</div>
 
-   <!-- Cookies Start -->
-   <div class="wrapper">
-      <div class="info">
-         <p>
-            Nous utilisons des cookies pour améliorer votre expérience sur notre site Web et pour analyser le trafic du site. En cliquant sur « Accepter », vous consentez à notre utilisation de cookies conformément à notre politique de confidentialité. Vous pouvez modifier vos paramètres de cookies à tout moment via les paramètres de votre navigateur.
-         </p>
-      </div>
-      <div class="buttons">
-         <button class="button" id="acceptBtn">Accepter</button>
-         <button class="button">En savoir plus</button>
-      </div>
-   </div>
-   <!-- Cookies End-->
-
-
-   <script src="assets/js/jquery-3.7.1.min.js"></script>
-   <script src="assets/js/bootstrap.bundle.min.js"></script>
-   <script src="assets/js/custom.js"></script>
-
-   <script>
-      document.addEventListener("DOMContentLoaded", () => {
-         animateValue("users", 0, 100000, 10000, false, "+");
-         animateValue("reviews", 0, 8000, 10000, false, "+");
-         animateValue("leagues", 0, 1000, 10000, false, "+");
-         animateValue("rating", 0, 9.3, 10000, true, "/10");
-      });
-
-      function animateValue(id, start, end, duration, isDecimal, suffix) {
-         let startTimestamp = null;
-         const step = (timestamp) => {
-            if (!startTimestamp) startTimestamp = timestamp;
-            const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-            const value = isDecimal ? (start + progress * (end - start)).toFixed(1) : Math.floor(start + progress * (end - start));
-            document.getElementById(id).innerText = isDecimal ? value + suffix : value.toLocaleString() + suffix;
-            if (progress < 1) {
-               window.requestAnimationFrame(step);
-            }
-         };
-         window.requestAnimationFrame(step);
-      }
-
-
-   </script>
-</body>
-
+    
+      <script src="assets/js/jquery-3.7.1.min.js"></script>
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/custom.js"></script>
+   
+      <script>
+         document.addEventListener("DOMContentLoaded", () => {
+             animateValue("users", 0, 100000, 10000, false, "+");
+             animateValue("reviews", 0, 8000, 10000, false, "+");
+             animateValue("leagues", 0, 1000, 10000, false, "+");
+             animateValue("rating", 0, 9.3, 10000, true, "/10");
+         });
+         
+         function animateValue(id, start, end, duration, isDecimal, suffix) {
+             let startTimestamp = null;
+             const step = (timestamp) => {
+                 if (!startTimestamp) startTimestamp = timestamp;
+                 const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                 const value = isDecimal ? (start + progress * (end - start)).toFixed(1) : Math.floor(start + progress * (end - start));
+                 document.getElementById(id).innerText = isDecimal ? value + suffix : value.toLocaleString() + suffix;
+                 if (progress < 1) {
+                     window.requestAnimationFrame(step);
+                 }
+             };
+             window.requestAnimationFrame(step);
+         }
+         
+         
+             </script>
+   </body>
 </html>
