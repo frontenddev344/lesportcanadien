@@ -631,7 +631,11 @@ color: #fff;
     text-decoration: underline;
     color: #000;
 }
-
+.disclaimer-wrapper h3{
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 600;
+}
 /* Cookies CSS Start */
 .wrapper {
     position: fixed;
