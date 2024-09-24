@@ -257,6 +257,13 @@
         }
     
         /* Cookies CSS End */
+        .copy-right {
+            flex-direction: column;
+            gap: 10px;
+        }
+        .ssl-logo {
+            max-width: 100px;
+        }
 }
 @media(max-width:375px){
     .counter {
